@@ -6,4 +6,7 @@ const doubled = numbers.map(num => num * 2);
 const friends =['Tom','john','Micheal','Oliver'];
 
 const lengths =friends.map(frnd => frnd.length);
-console.log(lengths)
+// console.log(lengths)
+
+const firstLetter =friends.map(friend => friend[0]);
+console.log(firstLetter)
